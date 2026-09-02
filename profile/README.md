@@ -44,6 +44,13 @@ Current work includes:
 
 Mainnet execution remains intentionally blocked until the required safety and verification work is complete.
 
+## Security and contributions
+
+- **Security policy:** https://github.com/CopyPumpApp/.github/blob/main/SECURITY.md
+- **Contribution guidelines:** https://github.com/CopyPumpApp/.github/blob/main/CONTRIBUTING.md
+
+Please report suspected vulnerabilities privately. Never send seed phrases, private keys, API keys, session secrets, or production user data.
+
 ## Public channels
 
 - **X:** https://x.com/copypumpai

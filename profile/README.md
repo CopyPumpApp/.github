@@ -1,66 +1,76 @@
 # CopyPump
 
-**Non-custodial autonomous trading on Solana.**
+**Follow smart money. Keep control.**
 
-CopyPump is building a trading platform designed around user custody, explicit risk limits, constrained wallet authority, and auditable execution.
+CopyPump is building **non-custodial autonomous trading infrastructure on Solana** — designed around user custody, explicit risk limits, constrained wallet authority, and auditable execution.
 
-> **Current status:** technical alpha / Solana Devnet hardening. CopyPump is not production-ready and should not be used with real funds.
+> **Status:** technical alpha · Solana Devnet hardening · Mainnet intentionally blocked
 
-## What we are building
+### Start here
 
-CopyPump is designed to help users discover high-signal on-chain trading activity and automate permitted trading actions without handing custody of funds to a centralized platform.
+- **Public repository:** https://github.com/CopyPumpApp/CopyPump
+- **Architecture:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ARCHITECTURE.md
+- **Devnet status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/DEVNET_STATUS.md
+- **Roadmap:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ROADMAP.md
 
-The product direction is built around four principles:
+## What CopyPump is building
 
-- **User custody** — funds remain under the user's control.
-- **Explicit limits** — automation operates within defined capital and risk boundaries.
-- **Deterministic safety controls** — policy and risk checks gate execution.
+CopyPump is designed to discover high-signal on-chain trading activity and automate only the trading actions permitted by the user — without requiring a centralized platform to take custody of funds.
+
+```text
+SMART-MONEY SIGNAL
+        ↓
+QUALIFICATION
+        ↓
+RISK / POLICY CHECKS
+        ↓
+PERMITTED EXECUTION
+        ↓
+POSITION MANAGEMENT
+        ↓
+PnL / FEES
+        ↓
+AUDIT TRAIL
+```
+
+Target position lifecycle:
+
+```text
+BUY → POSITION → PARTIAL SELL → FULL SELL
+```
+
+## Design principles
+
+- **User custody** — wallet keys remain under the user's control.
+- **Bounded authority** — automation operates only inside explicit permissions and capital/risk limits.
+- **Deterministic safety** — Risk/Policy checks remain authoritative.
 - **Auditability** — important decisions and execution state should be traceable.
-
-## Target flow
-
-`SMART-MONEY SIGNAL → QUALIFICATION → RISK / POLICY CHECKS → EXECUTION → POSITION MANAGEMENT → PnL / FEES → AUDIT TRAIL`
-
-The intended execution lifecycle includes:
-
-`BUY → POSITION → PARTIAL SELL → FULL SELL`
+- **Factual status** — simulations, UI state, or AI output are never presented as proof of production readiness.
 
 ## Current engineering focus
 
-We are currently focused on validating the execution and safety model on Solana Devnet before any production deployment.
+The immediate focus is validating the execution and safety model on **Solana Devnet** before any production deployment.
 
-Current work includes:
-
-- Phantom wallet integration;
-- smart-money discovery and signal qualification;
-- constrained session / delegated authority architecture;
-- capital and risk controls;
-- transaction confirmation and reconciliation;
-- position lifecycle management;
-- PnL and fee accounting;
-- audit evidence and failure containment;
-- Russian / English product localization;
-- runtime and browser QA.
+Current work includes Phantom wallet integration, smart-money discovery and qualification, bounded authority, capital/risk controls, transaction confirmation and reconciliation, position lifecycle management, PnL/fee accounting, audit evidence, localization, and runtime/browser QA.
 
 Mainnet execution remains intentionally blocked until the required safety and verification work is complete.
 
-## Security and contributions
+## Follow the build
 
-- **Security policy:** https://github.com/CopyPumpApp/.github/blob/main/SECURITY.md
-- **Contribution guidelines:** https://github.com/CopyPumpApp/.github/blob/main/CONTRIBUTING.md
-
-Please report suspected vulnerabilities privately. Never send seed phrases, private keys, API keys, session secrets, or production user data.
-
-## Public channels
-
-- **X:** https://x.com/copypumpai
+- **GitHub:** https://github.com/CopyPumpApp/CopyPump
+- **X:** https://x.com/CopyPumpAI
 - **YouTube:** https://youtube.com/@copypumpapp
 - **Pump.fun:** https://pump.fun/profile/CopyPumpApp
 - **Contact:** copypumphq@gmail.com
 
-## Repository status
+If you're following the project, **star or watch the public repository** — public technical milestones and selected source material will be added as they clear security, privacy, and licensing review.
 
-Core product development is currently maintained in private repositories while the project is in active technical hardening and review. Public engineering materials will be added here as they are ready to be shared responsibly.
+## Security
+
+Please report suspected vulnerabilities privately. Never send seed phrases, private keys, API keys, session secrets, or production user data.
+
+- **Security policy:** https://github.com/CopyPumpApp/.github/blob/main/SECURITY.md
+- **Contribution guidelines:** https://github.com/CopyPumpApp/.github/blob/main/CONTRIBUTING.md
 
 ---
 

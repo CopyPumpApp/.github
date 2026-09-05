@@ -9,6 +9,7 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 ### Start here
 
 - **Public repository:** https://github.com/CopyPumpApp/CopyPump
+- **Project status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/PROJECT_STATUS.md
 - **Architecture:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ARCHITECTURE.md
 - **Devnet status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/DEVNET_STATUS.md
 - **Roadmap:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ROADMAP.md
@@ -47,13 +48,17 @@ BUY → POSITION → PARTIAL SELL → FULL SELL
 - **Auditability** — important decisions and execution state should be traceable.
 - **Factual status** — simulations, UI state, or AI output are never presented as proof of production readiness.
 
-## Current engineering focus
+## Current public milestone
 
-The immediate focus is validating the execution and safety model on **Solana Devnet** before any production deployment.
+The immediate proof target is a reviewed **real Solana Devnet lifecycle** covering execution, confirmation, reconciliation, PnL/fee accounting, and audit evidence for:
 
-Current work includes Phantom wallet integration, smart-money discovery and qualification, bounded authority, capital/risk controls, transaction confirmation and reconciliation, position lifecycle management, PnL/fee accounting, audit evidence, localization, and runtime/browser QA.
+```text
+BUY → POSITION → PARTIAL SELL → FULL SELL
+```
 
-Mainnet execution remains intentionally blocked until the required safety and verification work is complete.
+Simulations and paper execution are not presented as equivalent proof. Mainnet remains intentionally blocked while hardening and verification continue.
+
+Current engineering work includes Phantom wallet integration, smart-money discovery and qualification, bounded authority, capital/risk controls, transaction confirmation and reconciliation, position lifecycle management, PnL/fee accounting, audit evidence, localization, and runtime/browser QA.
 
 ## Follow the build
 

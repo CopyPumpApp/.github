@@ -10,6 +10,7 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 
 - **Public repository:** https://github.com/CopyPumpApp/CopyPump
 - **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/16
+- **Discord:** https://discord.gg/DNBQtqw6R
 - **Project status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/PROJECT_STATUS.md
 - **Architecture:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ARCHITECTURE.md
 - **Devnet status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/DEVNET_STATUS.md
@@ -23,7 +24,9 @@ The current code-first entry point is **[#16: add optional Solana Devnet RPC ver
 
 Participation in these public contribution tasks is voluntary and unpaid. CopyPump does not promise bounties, tokens, equity, revenue share, employment, or future compensation for ordinary open-source contributions.
 
-[Contribution guide](https://github.com/CopyPumpApp/CopyPump/blob/main/CONTRIBUTING.md) · [Open issues](https://github.com/CopyPumpApp/CopyPump/issues) · [Discussions](https://github.com/CopyPumpApp/CopyPump/discussions)
+[Contribution guide](https://github.com/CopyPumpApp/CopyPump/blob/main/CONTRIBUTING.md) · [Open issues](https://github.com/CopyPumpApp/CopyPump/issues) · [Discussions](https://github.com/CopyPumpApp/CopyPump/discussions) · [Discord](https://discord.gg/DNBQtqw6R)
+
+Good places to start in Discord: `#questions`, `#devnet-testing`, `#bug-reports`, and `#feature-ideas`.
 
 ## What CopyPump is building
 
@@ -74,6 +77,7 @@ Current engineering work includes Phantom wallet integration, smart-money discov
 ## Follow the build
 
 - **GitHub:** https://github.com/CopyPumpApp/CopyPump
+- **Discord:** https://discord.gg/DNBQtqw6R
 - **X:** https://x.com/CopyPumpAI
 - **YouTube:** https://youtube.com/@copypumpapp
 - **Pump.fun:** https://pump.fun/profile/CopyPumpApp
@@ -83,7 +87,7 @@ If you're following the project, **star or watch the public repository** — pub
 
 ## Security
 
-Please report suspected vulnerabilities privately. Never send seed phrases, private keys, API keys, session secrets, or production user data.
+Please report suspected vulnerabilities privately. Never send seed phrases, private keys, API keys, session secrets, passwords, 2FA codes, wallet backup phrases, signed secret payloads, or production user data.
 
 - **Security policy:** https://github.com/CopyPumpApp/.github/blob/main/SECURITY.md
 - **Contribution guidelines:** https://github.com/CopyPumpApp/.github/blob/main/CONTRIBUTING.md

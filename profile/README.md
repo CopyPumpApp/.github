@@ -9,10 +9,21 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 ### Start here
 
 - **Public repository:** https://github.com/CopyPumpApp/CopyPump
+- **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/16
 - **Project status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/PROJECT_STATUS.md
 - **Architecture:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ARCHITECTURE.md
 - **Devnet status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/DEVNET_STATUS.md
 - **Roadmap:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ROADMAP.md
+
+## Contribute
+
+We welcome volunteer open-source contributors who want to help with Solana, TypeScript/Node.js, QA, performance, security review, documentation, or early product testing.
+
+The current code-first entry point is **[#16: add optional Solana Devnet RPC verification to the public evidence validator](https://github.com/CopyPumpApp/CopyPump/issues/16)**. It is intentionally scoped so a contributor can work entirely from the public repository without private-core access, real funds, signing, or transaction submission.
+
+Participation in these public contribution tasks is voluntary and unpaid. CopyPump does not promise bounties, tokens, equity, revenue share, employment, or future compensation for ordinary open-source contributions.
+
+[Contribution guide](https://github.com/CopyPumpApp/CopyPump/blob/main/CONTRIBUTING.md) · [Open issues](https://github.com/CopyPumpApp/CopyPump/issues) · [Discussions](https://github.com/CopyPumpApp/CopyPump/discussions)
 
 ## What CopyPump is building
 

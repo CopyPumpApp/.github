@@ -9,7 +9,7 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 ### Start here
 
 - **Public contributor repository:** https://github.com/CopyPumpApp/CopyPump
-- **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/31
+- **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/39
 - **Official website source:** https://github.com/CopyPumpApp/CopyPump-Website
 - **Discord:** https://discord.gg/DNBQtqw6R
 - **Project status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/PROJECT_STATUS.md
@@ -21,7 +21,7 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 
 We welcome volunteer open-source contributors who want to help with Solana, TypeScript/Node.js, QA, performance, security review, documentation, or early product testing.
 
-The current code-first entry point is **[#31: add a fail-closed Solana v1 transaction-read helper](https://github.com/CopyPumpApp/CopyPump/issues/31)**. It is intentionally tiny and scaffolded: implement one pure, zero-network response classifier plus deterministic tests using the published synthetic fixtures. No private-core access, real funds, wallet interaction, signing, transaction submission, or Mainnet capability is required.
+The current code-first entry point is **[#39: add a bounded read-only Devnet `getTransaction` lookup](https://github.com/CopyPumpApp/CopyPump/issues/39)**. The pure fail-closed transaction-read classifier is already merged and covered by deterministic legacy/v0/v1 fixtures, so this task focuses on a bounded RPC read path using `maxSupportedTransactionVersion: 1`. No private-core access, real funds, wallet interaction, signing, transaction submission, provider secrets, or Mainnet capability is required.
 
 For experienced Solana transaction/runtime engineers, **[#9: review safe Solana v1 send-path resource bounds](https://github.com/CopyPumpApp/CopyPump/issues/9)** is the expert-review path. It asks for a conservative public safety contract and deterministic negative cases; it does not ask contributors to enable v1 sending.
 

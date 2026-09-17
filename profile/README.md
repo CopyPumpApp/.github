@@ -8,8 +8,9 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 
 ### Start here
 
-- **Public repository:** https://github.com/CopyPumpApp/CopyPump
-- **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/16
+- **Public contributor repository:** https://github.com/CopyPumpApp/CopyPump
+- **Best code-first contributor task:** https://github.com/CopyPumpApp/CopyPump/issues/31
+- **Official website source:** https://github.com/CopyPumpApp/CopyPump-Website
 - **Discord:** https://discord.gg/DNBQtqw6R
 - **Project status:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/PROJECT_STATUS.md
 - **Architecture:** https://github.com/CopyPumpApp/CopyPump/blob/main/docs/ARCHITECTURE.md
@@ -20,7 +21,9 @@ CopyPump is building **non-custodial autonomous trading infrastructure on Solana
 
 We welcome volunteer open-source contributors who want to help with Solana, TypeScript/Node.js, QA, performance, security review, documentation, or early product testing.
 
-The current code-first entry point is **[#16: add optional Solana Devnet RPC verification to the public evidence validator](https://github.com/CopyPumpApp/CopyPump/issues/16)**. It is intentionally scoped so a contributor can work entirely from the public repository without private-core access, real funds, signing, or transaction submission.
+The current code-first entry point is **[#31: add a fail-closed Solana v1 transaction-read helper](https://github.com/CopyPumpApp/CopyPump/issues/31)**. It is intentionally tiny and scaffolded: implement one pure, zero-network response classifier plus deterministic tests using the published synthetic fixtures. No private-core access, real funds, wallet interaction, signing, transaction submission, or Mainnet capability is required.
+
+For experienced Solana transaction/runtime engineers, **[#9: review safe Solana v1 send-path resource bounds](https://github.com/CopyPumpApp/CopyPump/issues/9)** is the expert-review path. It asks for a conservative public safety contract and deterministic negative cases; it does not ask contributors to enable v1 sending.
 
 Participation in these public contribution tasks is voluntary and unpaid. CopyPump does not promise bounties, tokens, equity, revenue share, employment, or future compensation for ordinary open-source contributions.
 
@@ -77,6 +80,7 @@ Current engineering work includes Phantom wallet integration, smart-money discov
 ## Follow the build
 
 - **GitHub:** https://github.com/CopyPumpApp/CopyPump
+- **Website source:** https://github.com/CopyPumpApp/CopyPump-Website
 - **Discord:** https://discord.gg/DNBQtqw6R
 - **X:** https://x.com/CopyPumpAI
 - **YouTube:** https://youtube.com/@copypumpapp
